@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Tiny5&display=swap");
+
+body {
+  font-family: "Tiny5", sans-serif;
+  background-color: #e98323;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header > .container > h1 {
+  font-size: 34px;
+}
+.header > .container > p {
+  padding-top: 10px;
+}
+ц .main__container {
+  height: 900px;
+}
+
+.chamber {
+  width: 80px;
+  cursor: crosshair;
+  transform: translate(0px, 0px);
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  padding: 15px 0 0 15px;
+}
